@@ -133,6 +133,9 @@ main{
     font-size: 8px;
   }
   
+  .navbar-logo h1{
+    font-size: 15px;
+  }
 }
 
 /* mobile phone */
@@ -154,6 +157,10 @@ main{
     .profile p{
         font-size:6px;
     }
+
+    .navbar-logo h1{
+    font-size: 12px;
+  }
 }
 
 
