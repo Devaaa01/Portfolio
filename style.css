@@ -209,6 +209,10 @@ main{
     line-height: 0.8rem;    
     margin-bottom: 2.5rem;
     transition: transform 0.3s ease, color 0.3s ease;
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    flex-direction: column;
 }
 
 .profile:hover{
@@ -229,6 +233,13 @@ main{
     overflow-x: hidden;
     transition: transform 0.3s ease, color 0.3s ease;
     box-sizing: border-box;
+}
+
+.profile-section .profile{
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+    justify-content: center;
 }
 
                 
@@ -526,6 +537,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
