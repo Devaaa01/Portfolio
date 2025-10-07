@@ -119,6 +119,14 @@ main{
     flex-direction: column;
     align-items: flex-start;
   }
+
+    .profile h3{
+    font-size: 18px;
+    }
+
+    .profile p{
+        font-size:12px;
+    }
 }
 
 /* mobile phone */
@@ -231,7 +239,7 @@ main{
 
 .profile h3{
     color:var(--navbar-color);  
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .profile p{
@@ -512,5 +520,6 @@ main{
 .darkmode{
 
 }
+
 
 
