@@ -124,17 +124,17 @@ main{
     padding: 60px 0;
   }
 
-  .profile-section img{
+  .profile-section .profile img{
     width: 100px;
     height: 100px;
   }
 
-  .profile-section h3{
+  .profile-section .profile h3{
     font-size: 12px;
     line-height: 1rem;
   }
 
-  .profile-section p{
+  .profile-section .profile p{
     font-size: 10px;
     line-height: 1rem;
   }
@@ -158,10 +158,12 @@ main{
 
     .profile-section .profile h3{
         font-size: 10px;
+        line-height: 1rem;
     }
 
     .profile-section .profile p{
         font-size: 8px;
+        line-height: 1rem;
     }
 
     .profile-section .profile{
