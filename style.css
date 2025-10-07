@@ -126,11 +126,11 @@ main{
   }
 
   .profile h3{
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .profile p{
-    font-size: 12px;
+    font-size: 8px;
   }
   
 }
@@ -147,11 +147,11 @@ main{
     }
 
     .profile h3{
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .profile p{
-        font-size:10px;
+        font-size:6px;
     }
 }
 
