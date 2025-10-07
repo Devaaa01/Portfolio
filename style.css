@@ -126,12 +126,12 @@ main{
     }
 
     .profile-section h3{
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 10px;
     }
 
     .profile-section p{
-        font-size:14px;
+        font-size:12px;
     }
 }
 
@@ -152,11 +152,11 @@ main{
     }
 
     .profile-section h3{
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .profile-section p{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
@@ -537,6 +537,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
