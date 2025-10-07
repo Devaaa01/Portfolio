@@ -136,6 +136,14 @@ main{
     html{
         font-size: 50%;
     }
+
+     .profile-section h3{
+    font-size: 15px;
+  }
+
+  .profile-section p{
+    font-size: 10px;
+  }
 }
 
 
