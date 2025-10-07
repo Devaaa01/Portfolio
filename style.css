@@ -129,11 +129,11 @@
             }
 
             .profile h3{
-                font-size: 12px;
+                font-size: 20px !important;
             }
 
             .profile p{
-                font-size: 8px;
+                font-size: 15px !important;
             }
         }
 
@@ -149,11 +149,11 @@
             }
 
             .profile h3{
-                font-size: 10px;
+                font-size: 18px !important;
             }
 
             .profile p{
-                font-size: 6px;
+                font-size: 13px !important;
             }
         }
 
