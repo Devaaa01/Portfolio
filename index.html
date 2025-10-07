@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio</title>
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Roboto Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Montserrat Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- link css -->
+ <link rel="stylesheet" href="style.css"/>
+
+ <!-- Icon -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <h1>Filip Tiirthadeva Siauw</h1>
+            </div>
+
+            <div class="navbar-link">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portofolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="menu" id="menu">
+                <i data-feather="menu" id="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-section" id="home">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture"/>
+            <h3>Filip Tiirthadeva Siauw</h3>
+            <p>IT Student | President University</p>
+        </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="aboutme">
+                <h2>About Me</h2>
+                <p>My name is <span class="name">Filip Tiirthadeva Siauw</span>, and I am an <span class="name">Information Technology Student</span> at <span class="name">President University.</span>
+                I have a strong interest in technology and how it can be used to make life easier and more efficient.</p>
+                <p>During my studies, I have learned about <span class="name">programming concept, web programming, computer network, calculus, discrete math, probability statistic, and economic survival</span>
+                which have helped me build a solid understanding of how technology works.</p>
+                <p>I enjoy <span class="name">solving problems, learning new tools, and working</span> on projects that improve digital experiences.
+                My goal is to keep growing as an IT professional and contribute to future innovations in the tech industry.</p>
+                
+            </div>
+        </section>
+
+        <section class="skills-container" id="skills">
+        <div class="skills-section">
+                <h2>My Skills</h2>
+    
+                <h3>Hard Skills</h3>
+                <div class="skills" onclick="toggleList('programming')">Programming <span class="Information">(Click For More Information)</span></div>
+                <ul class="skills-list" id="programming">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li class="highlight-skill">JavaScript</li>
+                    <li class="highlight-skill">C/C++</li>
+                </ul>
+                <div class="skills" onclick="toggleList('other')">Others <span class="Information">(Click For More Information)</span></div>
+                <ul class="skills-list" id="other">
+                    <li class="highlight-skill">Bilingual (Indonesia and English)</li>
+                    <li class="highlight-skill">Microsoft Office (Word, Ms.Excel, PowerPoint)</li>
+                    <li>Calculus</li>
+                    <li>Basic Design (Canva)</li>
+                    <li>Basic Photo & Video Editing</li>
+                    <li>Writing Scientific Work</li>
+                    <li>Driving (Car & Bike) </li>
+                </ul><br/><br/>
+            
+                <h3>Soft Skills</h3>
+                <div class="skills" onclick="toggleList('core')">Core Soft Skills <span class="Information">(Click For More Information)</span></div>
+                <ul class="skills-list" id="core">
+                    <li class="highlight-skill">Communication</li>
+                    <li class="highlight-skill">Teamwork</li>
+                    <li class="highlight-skill">Responsibility</li>
+                    <li>Discipline</li>
+                    <li>Problem Solving</li>
+                    <li>Critical Thinking</li>
+                    <li>Time Management</li>
+                </ul>
+                <div class="skills" onclick="toggleList('proskills')">Proffesional Skills <span class="Information">(Click For More Information)</span></div>
+                <ul class="skills-list" id="proskills">
+                    <li class="highlight-skill">Fast Learning</li>
+                    <li>Multitasking</li>
+                    <li>Reliability</li>
+                    <li>Attention to detail</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="portofolio-section" id="portofolio">
+            <div class="portofolio">
+                <h2>My Portofolio</h2>
+
+            <div class="portofolio-container">
+                <div class="project-box">
+                    <h3>Personal Portofolio Website</h3>
+                    <p>This is my first project where I created a personal portfolio website using HTML, CSS, and JavaScript. 
+                    It showcase my short biography, skills, projects, and contact informaton.
+                    </p>
+                    <span class="language-used">Language Used: HTML, CSS, JavaScript</span>
+                </div>
+
+                <div class="project-box">
+                    <h3>To-Do List App</h3>
+                    <p>A simple to-do list web application where users can add, edit, and delete tasks.
+                         Designed with a clean interface and local storage functionality.</p>
+                    <span class="language-used">Language Used: HTML, CSS, JavaScript</span>
+                </div>
+
+                <div class="project-box">
+                    <h3>Simple Calculator</h3>
+                    <p>A simple calculator program built using C that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+                    <span class="language-used">Language Used: C</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section" id="contact">
+        <div class="footer-container">
+
+            <div class="footer-label">
+                <h2>Filip Tiirthadeva Siauw</h2>
+                <p>IT Student | <a href="https://president.ac.id">President University</a></p>
+                <p>A proud IT student from President University batch 2025.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h2>Navigation</h2>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portofolio">Portfolio</a>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact Me</h2>
+                <p>Bekasi, Indonesia</p>
+            <div class="footer-link">
+                <p>Email: <a href="mailto:filipdeva60@gmail.com">filipdeva60@gmail.com</a></p>
+                <a href="https://www.linkedin.com/in/filip-tiirthadeva-siauw" target="_blank"><i data-feather="linkedin" class="icon-linkedin"></i></a>
+                <a href="https://www.instagram.com/deva0.1_/" target="_blank"><i data-feather="instagram"></i></a>
+                </div>
+            </div>
+        </div>  
+
+        <div class="footer-bottom">
+            <p>&copy 2025 Filip Tiirthadeva Siauw. All rights served.</p>
+        </div>
+    </footer>
+
+<script>
+  feather.replace();
+</script>
+<script src="main.js" ></script>
+
+    
+</body>
+</html>
