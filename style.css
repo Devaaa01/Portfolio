@@ -142,8 +142,9 @@ main{
     }
 
     .profile-section{
-        max-width:300px;
+        max-width:200px;
         width: 100%;
+        padding: 10px;
     }
 
     .profile h3{
