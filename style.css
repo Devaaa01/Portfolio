@@ -151,6 +151,10 @@
                 font-size: 50%;
             }
 
+            .aboutme p{
+                font-size: 12.5px !important;
+            }
+
             .navbar-logo h1{
                 font-size: 21px;
             }
