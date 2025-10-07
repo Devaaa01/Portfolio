@@ -146,12 +146,10 @@ main{
     }
 
     .profile-section h3{
-        overflow: hidden;
         font-size: 15px;
     }
 
     .profile-section p{
-        overflow: hidden;
         font-size: 12px;
     }
 }
@@ -522,6 +520,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
