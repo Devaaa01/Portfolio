@@ -136,8 +136,12 @@
                 font-size: 15px !important;
             }
 
-            
-
+            .navbar .navbar-link a{
+                font-size: 18px !important;
+                padding: 15px 0;
+                border-bottom: 1px solid white;
+                margin: 0;
+            }
         }
 
 
@@ -164,6 +168,10 @@
                 padding: 15px 0;
                 border-bottom: 1px solid white;
                 margin: 0;
+            }
+
+            .skills-list li{
+                line-height: 2rem !important;
             }
 
         }
@@ -514,11 +522,13 @@
         }
 
 
-        .icon-linkedin{
+        .icon-border{
             margin-right: 10px;
             border-right: 3px solid white;
             padding-right: 10px;
         }
+
+        
 
         .footer-nav{
             flex-direction: column;
@@ -542,3 +552,5 @@
             color: blanchedalmond;
             transform: scale(1.1);
         }
+
+        
