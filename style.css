@@ -130,11 +130,11 @@ main{
   }
 
   .profile-section h3{
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .profile-section p{
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -155,11 +155,11 @@ main{
     }
 
     .profile-section .profile h3{
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .profile-section .profile p{
-        font-size: 13px;
+        font-size: 8px;
     }
 
     .profile-section .profile{
