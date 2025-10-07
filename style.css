@@ -147,10 +147,12 @@ main{
 
     .profile h3{
         overflow: hidden;
+        font-size: 15px;
     }
 
     .profile p{
         overflow: hidden;
+        font-size: 12px;
     }
 }
 
@@ -520,6 +522,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
