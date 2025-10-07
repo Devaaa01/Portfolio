@@ -120,11 +120,11 @@ main{
     align-items: flex-start;
   }
 
-    .profile h3{
+    .profile-section h3{
     font-size: 18px;
     }
 
-    .profile p{
+    .profile-section p{
         font-size:12px;
     }
 }
@@ -145,12 +145,12 @@ main{
         height: 120px;
     }
 
-    .profile h3{
+    .profile-section h3{
         overflow: hidden;
         font-size: 15px;
     }
 
-    .profile p{
+    .profile-section p{
         overflow: hidden;
         font-size: 12px;
     }
@@ -522,6 +522,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
