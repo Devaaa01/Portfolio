@@ -138,12 +138,10 @@ main{
     }
 
     .profile h3{
-        width: 100%;
         overflow: hidden;
     }
 
     .profile p{
-        width: 100%;
         overflow: hidden;
     }
 }
@@ -514,4 +512,5 @@ main{
 .darkmode{
 
 }
+
 
