@@ -131,10 +131,12 @@ main{
 
   .profile-section h3{
     font-size: 12px;
+    line-height: 1rem;
   }
 
   .profile-section p{
     font-size: 10px;
+    line-height: 1rem;
   }
 }
 
