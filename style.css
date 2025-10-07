@@ -120,12 +120,18 @@ main{
     align-items: flex-start;
   }
 
+    .profile-section{
+        padding: 40px 10px;
+        text-align: center;
+    }
+
     .profile-section h3{
     font-size: 18px;
+    margin-top: 10px;
     }
 
     .profile-section p{
-        font-size:12px;
+        font-size:14px;
     }
 }
 
@@ -141,16 +147,16 @@ main{
     }
 
     .profile img{
-        width: 120px;
-        height: 120px;
+        width: 85px;
+        height: 85px;
     }
 
     .profile-section h3{
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .profile-section p{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
@@ -520,6 +526,7 @@ main{
 .darkmode{
 
 }
+
 
 
 
