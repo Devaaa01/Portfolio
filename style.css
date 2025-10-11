@@ -429,6 +429,8 @@
             box-shadow: 0 3px 8px rgba(0,0,0,0.15);
             padding: 20px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            flex-direction: column;
+            display: flex;
         }
 
         .project-box:hover {
@@ -457,6 +459,7 @@
             font-size: 15px;
             color: var(--language-color);
             font-style: italic;
+            margin-bottom: 10px;
         }
 
 
@@ -558,3 +561,18 @@
         }
 
         
+        .visit-link {
+            text-decoration: none;
+            color:#666;
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .visit-link a{
+            text-decoration: none;
+        }
+
+        .visit-link a:hover{
+            text-decoration: underline;
+            color: red;
+        }
